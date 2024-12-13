@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  font-family: 'roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Section Styles */
+section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ff7e5f;
+}
+
+/* Fry Options */
+.fry-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.fry-item {
+  text-align: center;
+  max-width: 300px;
+  flex: 1 1 300px;
+}
+
+.fry-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.fry-item h3 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: #ff7e5f;
+}
+
+.fry-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Map Section */
+#map {
+  text-align: center;
+}
+
+#map img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+
+/* About Us */
+#about-us {
+  background: #ffe8e5;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#about-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about-us li {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+#about-us a {
+  color: #ff7e5f;
+  text-decoration: none;
+}
+
+#about-us a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .fry-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
